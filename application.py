@@ -11,7 +11,3 @@ for image in os.listdir("input"):
     img_to_paste = Image.open(file_to_open)
     photo_frame.paste(img_to_paste, (100, 50), mask=img_to_paste)
     photo_frame.save(os.path.join("output", image))
-
-
-
-    
